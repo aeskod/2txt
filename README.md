@@ -63,16 +63,3 @@ If enabled, a directory tree is appended at the end of the output file.
 ## Privacy
 
 2txt processes files locally on your Mac. Core functionality does not require network access.
-
-## Contributing
-
-Pull requests are welcome. Recommended workflow:
-
-1. Create a branch from `main`.
-2. Keep changes focused and include tests when behavior changes.
-3. Run local tests before opening a PR.
-4. Use clear commit messages and a concise PR description.
-
-## License
-
-License: TBD (no license file is currently present in this repository).
