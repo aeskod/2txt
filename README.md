@@ -13,7 +13,6 @@
 
 ## Features
 <img width="972" height="684" alt="Screenshot 2026-02-15 at 06 55 10" src="https://github.com/user-attachments/assets/84e910ab-b2d5-4ff3-aca5-5b31855c053a" />
-
 - Template-based output naming with tokens: `{yyyy}`, `{yy}`, `{MM}`, `{dd}`, `{HH}`, `{mm}`, `{ss}`, `{dir}`
 - File/folder exclusions with three modes: exact, glob, and regex
 - Exclusion autocomplete suggestions based on scanned file names
@@ -52,7 +51,7 @@ Each included file is written with a header like:
 If enabled, a directory tree is appended at the end of the output file.
 
 ## Settings Reference
-
+<img width="662" height="510" alt="Screenshot 2026-02-15 at 06 56 51" src="https://github.com/user-attachments/assets/57163aae-4c45-4a0b-ab8f-cbcefed55485" />
 - Pattern mode: `exact`, `glob`, or `regex` matching for exclusion entries
 - Text-only: include only plain text/source-code files
 - Hidden files: include or skip hidden files/folders
