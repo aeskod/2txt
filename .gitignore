@@ -3,3 +3,11 @@
 .derivedData*/
 .archives/
 2txt.xcodeproj/project.xcworkspace/xcuserdata/
+2txt.xcodeproj/xcuserdata/
+*.xcuserstate
+.vscode/
+dist/
+*.dmg
+2txt.xcodeproj/xcuserdata/
+2txt.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcuserstate

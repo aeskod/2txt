@@ -1,12 +1,3 @@
-## Download
-
-| Platform | Download |
-| --- | --- |
-| macOS (Apple Silicon / ARM64) | [Download DMG for Apple Silicon](../../releases/latest/download/2txt-arm64.dmg) |
-| macOS (Intel / x86_64) | [Download DMG for Intel Macs](../../releases/latest/download/2txt-x86_64.dmg) |
-
-- Download the `.dmg`, open it, then drag `2txt.app` to `Applications`.
-
 # 2txt
 
 2txt is a macOS app that scans a source folder, collects text and source-code files, and combines them into a single `.txt` output file. It supports flexible filtering and naming rules, and can append a directory tree so the output includes both file contents and structural context.
@@ -31,6 +22,8 @@
 ## Download
 
 - Latest release for Apple Silicon and Intel Macs: [https://github.com/aeskod/2txt/releases/latest](https://github.com/aeskod/2txt/releases/latest)
+- Apple Silicon (ARM64): [Download DMG](../../releases/latest/download/2txt-arm64.dmg)
+- Intel (x86_64): [Download DMG](../../releases/latest/download/2txt-x86_64.dmg)
 - Download the `.dmg`, open it, then drag `2txt.app` to `Applications`.
 
 ## Quick Start
@@ -61,6 +54,26 @@ If enabled, a directory tree is appended at the end of the output file.
 - Max file size: optional size cap (MB) per included file
 - Append tree / tree sizes: append directory tree and optionally show file sizes
 - Default output directory: save to a pre-authorized folder without prompting each run
+
+## Build From Source
+
+Requirements:
+- macOS
+- Xcode (recent version with SwiftUI/macOS SDK support)
+
+Build steps:
+1. Open `2txt.xcodeproj`.
+2. Select the `2txt` scheme.
+3. Build and run from Xcode.
+
+## Testing
+
+- In Xcode: run the `2txtTests` and `2txtUITests` test targets from the test navigator.
+- From terminal, run the matrix script:
+
+```bash
+./scripts/test-matrix.sh
+```
 
 ## Privacy
 
