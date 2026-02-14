@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		6819CB9C2F4122AB0033D511 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6819CB9B2F4122AB0033D511 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		6835E2542E47D0C500746AA8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6819CB9B2F4122AB0033D511 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6835E2452E47D0C400746AA8 /* 2txt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2txt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6835E2532E47D0C500746AA8 /* 2txtTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2txtTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6835E25D2E47D0C500746AA8 /* 2txtUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2txtUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,6 +38,16 @@
 		6835E2472E47D0C400746AA8 /* 2txt */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = 2txt;
+			sourceTree = "<group>";
+		};
+		A10000012E5A111100746AA8 /* 2txtTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = 2txtTests;
+			sourceTree = "<group>";
+		};
+		A10000022E5A111100746AA8 /* 2txtUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = 2txtUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -65,7 +80,10 @@
 		6835E23C2E47D0C400746AA8 = {
 			isa = PBXGroup;
 			children = (
+				6819CB9B2F4122AB0033D511 /* Assets.xcassets */,
 				6835E2472E47D0C400746AA8 /* 2txt */,
+				A10000012E5A111100746AA8 /* 2txtTests */,
+				A10000022E5A111100746AA8 /* 2txtUITests */,
 				6835E2462E47D0C400746AA8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -118,6 +136,9 @@
 			dependencies = (
 				6835E2552E47D0C500746AA8 /* PBXTargetDependency */,
 			);
+			fileSystemSynchronizedGroups = (
+				A10000012E5A111100746AA8 /* 2txtTests */,
+			);
 			name = 2txtTests;
 			packageProductDependencies = (
 			);
@@ -137,6 +158,9 @@
 			);
 			dependencies = (
 				6835E25F2E47D0C500746AA8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A10000022E5A111100746AA8 /* 2txtUITests */,
 			);
 			name = 2txtUITests;
 			packageProductDependencies = (
@@ -195,6 +219,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6819CB9C2F4122AB0033D511 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,6 +402,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -416,6 +442,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;

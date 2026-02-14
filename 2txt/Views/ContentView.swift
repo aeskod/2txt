@@ -21,6 +21,7 @@ struct ContentView: View {
                             .font(.callout).foregroundStyle(.secondary).lineLimit(1).truncationMode(.head)
                             .frame(maxWidth: .infinity, alignment: .leading)
                         Button("Choose…", action: vm.pickSourceDirectory)
+                            .accessibilityIdentifier("chooseSourceButton")
                     }
                     
                     // Second Row: Output Name
@@ -28,6 +29,7 @@ struct ContentView: View {
                         Text("Output Name:")
                         TextField("Template", text: $vm.settings.template)
                             .textFieldStyle(.roundedBorder)
+                            .accessibilityIdentifier("templateTextField")
                         
                         Menu {
                             if !vm.settings.customTemplates.isEmpty {
@@ -172,6 +174,7 @@ struct ContentView: View {
                         }
                         
                         Button("Save") { vm.run(overrideDestination: true) }
+                            .accessibilityIdentifier("saveOutputButton")
                             .keyboardShortcut(.defaultAction)
                             .disabled(vm.isRunning || vm.sourceDirectory == nil)
                     }

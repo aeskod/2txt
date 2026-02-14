@@ -107,6 +107,7 @@ struct SettingsView: View {
                     
                     Toggle("Include only plain text & source code files", isOn: $vm.settings.textOnly)
                     Toggle("Include hidden files (e.g. .gitignore)", isOn: $vm.settings.includeHiddenFiles)
+                        .accessibilityIdentifier("includeHiddenToggle")
                     Toggle("Follow symbolic links", isOn: $vm.settings.followSymlinks)
                     Divider()
                     Toggle("Limit the size of included files", isOn: isMaxFileSizeEnabled.animation())

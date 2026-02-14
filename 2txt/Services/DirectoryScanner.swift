@@ -4,7 +4,7 @@ import UniformTypeIdentifiers
 
 final class DirectoryScanner {
     private let keys: [URLResourceKey] = [
-        .isRegularFileKey, .isSymbolicLinkKey, .typeIdentifierKey, .fileSizeKey
+        .isRegularFileKey, .isSymbolicLinkKey, .fileSizeKey
     ]
 
     func scan(at root: URL,
@@ -45,7 +45,7 @@ final class DirectoryScanner {
                         skipped += 1; continue
                     }
 
-                    let uti = vals.typeIdentifier
+                    let uti = try? url.resourceValues(forKeys: [.typeIdentifierKey]).typeIdentifier
                     let size = Int64(vals.fileSize ?? 0)
                     if let max = maxFileSizeBytes, size > max { skipped += 1; continue }
 
