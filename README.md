@@ -5,6 +5,8 @@
 | macOS (Apple Silicon / ARM64) | [Download DMG for Apple Silicon](../../releases/latest/download/2txt-arm64.dmg) |
 | macOS (Intel / x86_64) | [Download DMG for Intel Macs](../../releases/latest/download/2txt-x86_64.dmg) |
 
+- Download the `.dmg`, open it, then drag `2txt.app` to `Applications`.
+
 # 2txt
 
 2txt is a macOS app that scans a source folder, collects text and source-code files, and combines them into a single `.txt` output file. It supports flexible filtering and naming rules, and can append a directory tree so the output includes both file contents and structural context.
@@ -27,7 +29,7 @@
 
 ## Download
 
-- Latest release: [https://github.com/aeskod/2txt/releases/latest](https://github.com/aeskod/2txt/releases/latest)
+- Latest release for Apple Silicon and Intel Macs: [https://github.com/aeskod/2txt/releases/latest](https://github.com/aeskod/2txt/releases/latest)
 - Download the `.dmg`, open it, then drag `2txt.app` to `Applications`.
 
 ## Quick Start
