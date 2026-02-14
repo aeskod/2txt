@@ -12,6 +12,7 @@
 2txt is a macOS app that scans a source folder, collects text and source-code files, and combines them into a single `.txt` output file. It supports flexible filtering and naming rules, and can append a directory tree so the output includes both file contents and structural context.
 
 ## Features
+<img width="972" height="684" alt="Screenshot 2026-02-15 at 06 55 10" src="https://github.com/user-attachments/assets/84e910ab-b2d5-4ff3-aca5-5b31855c053a" />
 
 - Template-based output naming with tokens: `{yyyy}`, `{yy}`, `{MM}`, `{dd}`, `{HH}`, `{mm}`, `{ss}`, `{dir}`
 - File/folder exclusions with three modes: exact, glob, and regex
