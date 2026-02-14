@@ -60,26 +60,6 @@ If enabled, a directory tree is appended at the end of the output file.
 - Append tree / tree sizes: append directory tree and optionally show file sizes
 - Default output directory: save to a pre-authorized folder without prompting each run
 
-## Build From Source
-
-Requirements:
-- macOS
-- Xcode (recent version with SwiftUI/macOS SDK support)
-
-Build steps:
-1. Open `/Users/artemskorobogatov/Documents/MyCode/Swift/2txt_app/2txt.xcodeproj`.
-2. Select the `2txt` scheme.
-3. Build and run from Xcode.
-
-## Testing
-
-- In Xcode: run the `2txtTests` and `2txtUITests` test targets from the test navigator.
-- From terminal, run the matrix script:
-
-```bash
-/Users/artemskorobogatov/Documents/MyCode/Swift/2txt_app/scripts/test-matrix.sh
-```
-
 ## Privacy
 
 2txt processes files locally on your Mac. Core functionality does not require network access.
